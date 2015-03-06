@@ -1,3 +1,12 @@
+################################################################################
+#
+# puppet/type/ipa_hbacsvcgroup.rb
+#
+# Copyright 2013-2015 jonuwz (https://github.com/jonuwz)
+#
+# See LICENSE.md for Licensing.
+#
+################################################################################
 Puppet::Type.newtype(:ipa_hbacsvcgroup) do
   @doc = <<-'EOS'
     Manages Host Based Access Control service groups within IPA.

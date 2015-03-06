@@ -1,3 +1,12 @@
+################################################################################
+#
+# puppet/type/ipa_hbacrule.rb
+#
+# Copyright 2013-2015 jonuwz (https://github.com/jonuwz)
+#
+# See LICENSE.md for Licensing.
+#
+################################################################################
 Puppet::Type.newtype(:ipa_hbacrule) do
   @doc = <<-'EOS'
     Manages Host Based Access Control rules within IPA.

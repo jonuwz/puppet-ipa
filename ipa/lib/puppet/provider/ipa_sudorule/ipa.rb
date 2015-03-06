@@ -1,3 +1,12 @@
+################################################################################
+#
+# puppet/provider/ipa_sudorule/ipa.rb
+#
+# Copyright 2013-2015 jonuwz (https://github.com/jonuwz)
+#
+# See LICENSE.md for Licensing.
+#
+################################################################################
 require 'puppet/util/ipajson'
 require 'puppet/provider/ipabase'
 

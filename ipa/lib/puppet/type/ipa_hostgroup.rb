@@ -1,3 +1,12 @@
+################################################################################
+#
+# puppet/type/ipa_hostgroup.rb
+#
+# Copyright 2013-2015 jonuwz (https://github.com/jonuwz)
+#
+# See LICENSE.md for Licensing.
+#
+################################################################################
 Puppet::Type.newtype(:ipa_hostgroup) do
   @doc = <<-'EOS'
     Manages hostgroups within IPA.

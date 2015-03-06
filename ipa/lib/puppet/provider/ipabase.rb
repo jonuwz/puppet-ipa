@@ -1,3 +1,12 @@
+################################################################################
+#
+# puppet/provider/ipabase.rb
+#
+# Copyright 2013-2015 jonuwz (https://github.com/jonuwz)
+#
+# See LICENSE.md for Licensing.
+#
+################################################################################
 require 'puppet/provider'
 require 'puppet/util/ipajson'
 

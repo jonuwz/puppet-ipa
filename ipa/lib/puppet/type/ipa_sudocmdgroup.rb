@@ -1,3 +1,12 @@
+################################################################################
+#
+# puppet/type/ipa_sudocmdgroup.rb
+#
+# Copyright 2013-2015 jonuwz (https://github.com/jonuwz)
+#
+# See LICENSE.md for Licensing.
+#
+################################################################################
 Puppet::Type.newtype(:ipa_sudocmdgroup) do
   @doc = <<-'EOS'
     Manages Sudo command groups within IPA.
