@@ -1,3 +1,12 @@
+################################################################################
+#
+# puppet/type/ipa_sudorule.rb
+#
+# Copyright 2013-2015 jonuwz (https://github.com/jonuwz)
+#
+# See LICENSE.md for Licensing.
+#
+################################################################################
 Puppet::Type.newtype(:ipa_sudorule) do
 
   @doc = <<-'EOS'

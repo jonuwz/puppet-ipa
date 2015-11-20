@@ -1,3 +1,12 @@
+################################################################################
+#
+# puppet/util/ipajson.rb
+#
+# Copyright 2013-2015 jonuwz (https://github.com/jonuwz)
+#
+# See LICENSE.md for Licensing.
+#
+################################################################################
 module IPAcommon
 
   @@IPAfind_element = {

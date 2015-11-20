@@ -1,3 +1,13 @@
+# puppet-ipa
+
+Custom types and providers for Identity Policy Audit (IPA).
+
+See License.md for Licensing.
+
+For more information on IPA see http://www.freeipa.org.
+
+For IPA licensing see http://www.freeipa.org/page/License.
+
 ----------------
 
 ### ipa_group

@@ -1,3 +1,12 @@
+################################################################################
+#
+# puppet/type/ipa_group.rb
+#
+# Copyright 2013-2015 jonuwz (https://github.com/jonuwz)
+#
+# See LICENSE.md for Licensing.
+#
+################################################################################
 Puppet::Type.newtype(:ipa_group) do
   @doc = <<-'EOS'
     Manages user groups within IPA.
